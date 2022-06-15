@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    overflow: auto;
+    scrollbar-darkshadow-color: #141414;
+    margin-right: 2em;
+    li{
+        display: flex;
+        align-items: center;
+    }
+}
+
+h2{
+    margin: 4em 0 0 2em;
+}
+
+.number{
+    height: 13em;
+    margin-right: -5em;
+
+}
+
+.img{
+   height: 10em;
+   transition: 1s;
+}
+.img:hover{
+    height: 12em;
+    transition: 1s;
+}

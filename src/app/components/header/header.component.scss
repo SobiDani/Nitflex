@@ -1,0 +1,73 @@
+header {
+  background: rgb(12, 12, 12);
+  background: linear-gradient(
+    180deg,
+    rgba(12, 12, 12, 1) 30%,
+    var(--background) 100%
+  );
+  width: 100vw;
+  position: fixed;
+  top: 0;
+
+  nav {
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 6em;
+      margin: 0 0 0 4%;
+    }
+
+    ul {
+      display: flex;
+      width: 50%;
+      a{
+        text-shadow: 5px 9px 5px black;
+        transition: 0.5s;
+       
+      }
+      a:hover{
+            color: red;
+            transition: 0.5s;
+    }
+    }
+
+    .ul2 {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-right: 3%;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+      }
+
+      button{
+          background-color: transparent;
+          border: transparent;
+          font-size: 150%;
+          transition: transform 1s ease-in-out;
+      }
+      button:hover{
+        transform: rotate(360deg);
+      }
+    }
+
+    li {
+      margin: 0 2%;
+
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+

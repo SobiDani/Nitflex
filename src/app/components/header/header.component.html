@@ -1,0 +1,28 @@
+<header>
+<nav>
+    <img src="{{navigatorInfo.logo.src}}" alt="{{navigatorInfo.logo.alt}}">
+    <ul>
+        <li *ngFor="let infoNav of navigatorInfo.links">
+            <a href="{{infoNav.link}}">{{infoNav.texto}}</a>
+        </li>
+    </ul>
+    
+    <ul class="ul2">
+        <li>
+            <button (click)="cambiarColor()" class="noche">{{btnText}}</button>
+        </li>
+        <li>
+            <a href="#search"><img src="../../../assets/descarga.png" alt="search logo"></a>
+        </li>
+        <li>
+            <a href="#kids">kids</a>
+        </li>
+        <li>
+            <a href="#notifications"><img src="../../../assets/descarga (1).png" alt="search logo"></a>
+        </li>
+        <li>
+            <a href="#user"><img src="../../../assets/user.png" alt="search logo"></a>
+        </li>
+    </ul>
+</nav>
+</header>
